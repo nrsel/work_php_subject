@@ -16,7 +16,7 @@ class Test{
 class Test2 extends  Test{
 
     public function returnC(){
-        
+
         return  $this->c = 'c döndür';
     }
 }
