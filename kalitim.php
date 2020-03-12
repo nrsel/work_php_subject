@@ -5,11 +5,14 @@ class a{
         return 'a:test';
     }
 
+
 }
 class  b extends a{
-    public  function  test(){
-        return 'b:test';
-     }
+
+    //final: metodun,sınıfın  kalıtılmasını izin vermez.Büyük projelerde,birden çok kişiyle geliştirme yapılırken kullanılır.
+      final public  function  test(){
+            return 'b:test';
+         }
 }
 
 class  c  extends  b{
@@ -20,15 +23,16 @@ class  c  extends  b{
     public  function testleriGetir(){
 
         return $dizi = [
-            'c =>'  => $this->test(),
-            'b =>'  => parent::test(),
-            'a =>'  => a::test()
+            'c =>'  => $this->test(),//self->test(),
+            'b =>'  => parent::test(),//parent:kalıtılan sınıftaki metodu kullan
+            'a =>'  => a::test(),
 
         ];
 
     }
 }
 
-$nesne  = new  c();
 
+
+$nesne  = new  c();
 print_r($nesne->testleriGetir());
