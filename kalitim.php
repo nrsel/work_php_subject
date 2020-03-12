@@ -4,7 +4,6 @@
   1) Method içinde çağırılacak nesnelerinde başta  static olarak tanımlanması gerekir.
   2)Bu nesneler çağırılırken self veya parent kullanılır. */
 class staticDeneme{
-
     static $filename;
     static function method($filename,$text){
         //self

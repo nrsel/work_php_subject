@@ -5,12 +5,18 @@ ini_set('display_errors',1);
 class Test{
 
 
+    const DIRECTORY = __DIR__;
+
     public $a;
     //sadece sınıf içinde erişilebilir.
     private  $b;
     //sadece sınıf içinde ve kalıtılan sınıfta erişilebilir.
     protected  $c;
 
+    public  function  getDırectory(){
+
+        return self::DIRECTORY;
+    }
 }
 
 class Test2 extends  Test{
@@ -21,10 +27,10 @@ class Test2 extends  Test{
     }
 }
 
- $nesne = new Test();
- $nesne->a = 'dneme';
- //echo  $nesne->a;
+  /*$nesne = new Test();
+  echo $nesne->getDırectory();*/
+  echo Test::DIRECTORY;
 
  // protected
   $nesne2 = new Test2();
-  echo $nesne2->returnC();
+  //echo $nesne2->returnC();
