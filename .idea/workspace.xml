@@ -29,8 +29,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kalitim.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="125" selection-start-line="11" selection-start-column="125" selection-end-line="11" selection-end-column="125" />
+            <state relative-caret-position="357">
+              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding>
+                <element signature="n#a#0;n#!!top" />
+                <element signature="n#b#0;n#!!top" />
+                <element signature="n#b#1;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,12 +123,12 @@
       <option name="presentableId" value="Default" />
       <updated>1583831122090</updated>
       <workItem from="1583831123184" duration="3016000" />
-      <workItem from="1583998920290" duration="1983000" />
+      <workItem from="1583998920290" duration="3147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4999000" />
+    <option name="totallyTimeSpent" value="6163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -170,8 +175,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kalitim.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="125" selection-start-line="11" selection-start-column="125" selection-end-line="11" selection-end-column="125" />
+        <state relative-caret-position="357">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="n#a#0;n#!!top" />
+            <element signature="n#b#0;n#!!top" />
+            <element signature="n#b#1;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
