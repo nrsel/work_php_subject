@@ -1,6 +1,5 @@
 <?php
 
-
 //Sınıfları require ile tek tek  yüklemek yerine spl_autoload_register() bir seferde yükleyebiliriz.;
 
 
@@ -49,6 +48,5 @@ spl_autoload_register('autoloadNamespace');
 
 $nesne = new App\Controller\Home;
 echo $nesne->test();
-
 
 

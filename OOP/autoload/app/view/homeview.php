@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 class Homeview {
 
     public  function  test(){
@@ -8,3 +9,5 @@ class Homeview {
     }
 
 }
+=======
+>>>>>>> master
