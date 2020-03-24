@@ -1,0 +1,4 @@
+Options -Indexes
+
+//Public klasörünün listelenmesine izin ver ,ancak içindekilere erişime kapat.Tasarımsal kısımlara ulaşmak için Options kullanacağız
+
