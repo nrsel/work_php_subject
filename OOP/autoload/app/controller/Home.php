@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 namespace App\Controller;
 
@@ -12,5 +11,3 @@ class Home{
     }
 
 }
-=======
->>>>>>> master
